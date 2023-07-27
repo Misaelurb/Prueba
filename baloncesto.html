@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/baloncesto.css" type="text/css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <link rel='stylesheet' href='https://cdn-uicons.flaticon.com/uicons-regular-rounded/css/uicons-regular-rounded.css'>
+
+    <!-- font flat-ui cdn 2.2.2 -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/flat-ui/2.2.2/css/flat-ui.min.css"
+    integrity="sha512-PvB3Q4vTvWD/9aiiELYI3uebup/4mtou3Mc/uGudC/Zl+C9BdKUkAI+5jORfA+fvLK4DpzC5VyEN7P2kK43hjg=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <link rel="stylesheet" href="css/calendar.css">
+    <title>Baloncesto</title>
+</head>
+<body>
+    <div class="d-flex flex-column">
+        <header class="row d-flex">
+          <div class="col-6 ps-5 py-3"><img class="LogoItla" src="img/Logo/LogoITLA.png" alt="ITLA"></div>
+          <div class="col-6 d-flex pe-5 flex-column justify-content-center">
+            <div class="img-container">
+                <img class="Logo" src="img/Logo/LogoDominicana.png" alt="Dominicana">
+            </div>
+            <div class="input-container">
+                <input type="text" class="input">
+                <i class="fi fi-rr-search icon"></i>
+            </div>
+        </div>
+        </header>
+        <nav class="row d-flex">
+            <ul class="nav py-2 px-5">
+                <li class="nav-item">
+                    <a class="item-nav-icon text-light" href="index.html">
+                        <i class="fi fi-rr-home"></i>
+                    </a>
+                <li class="nav-item">
+                    <a class="item-nav text-light" href="">
+                        <span>NOTICIAS</span>
+                        <i class="fi fi-rr-angle-down"></i>
+                    </a>
+                    
+                </li>
+                <li class="nav-item">
+                    <a class="item-nav text-light" href="">
+                        <span>DISCIPLINAS</span>
+                        <i class="fi fi-rr-angle-down"></i></a>
+                </li>
+        </nav>
+
+    <div class="contenedor">
+        <div>
+            <h2>BALONCESTO</h2>
+            <a href="index.html">Inicio</a>
+            <span>/</span>
+            <a href="#" class="disciplinas">Disciplinas</a>
+        </div>
+    </div>
+
+    <div class="main-container">
+        <div class="section-container">
+            <div class="contenedortext">
+                <h2><b>HISTORIA DEL BALONCESTO</b></h2>
+                <P>En el año 1940, Máximo Llaverías Martí, un gran entusiasta que llegó a la inmortalidad deportiva por sus esfuerzos a favor de la desciplina, fundó la Asociación Dominicana de Basketball. Pero fue Virgilio Travieso Soto, discípulo aventajado de Llaverías Martí, quien daría los pasos concretos para la creación de una sólida entidad qeu integrara a todos los actuanes del baloncesto nacional.</P>
+            </div>
+            <div class="contenedorlogros">
+                <h2><b>LOGROS</b></h2>
+                <div class="col"><img class="imgbaloncesto" src="img/Fotos/balocensto2.jpg" alt="baloncesto2"></div>
+                <p class="parrafo-estilo-1"> Itla &nbsp &nbsp 28 de junio de 2023 &nbsp&nbsp Noticias</p>
+                <p class="parrafo-estilo-2"> La Universidad Tecnológica del Cibao Oriental (UTECO) ganó el torneo de baloncesto universitario 3x3 organizado por el Ministerio de Deportes en Santo Domingo. En la rama masculina, UTECO se coronó campeona al vencer a la Universidad Católica de Santo Domingo (UCSD) en la final. En la rama femenina, el Instituto Tecnológico de las Américas (ITLA) se llevó el título al ganarle a la Universidad Católica Nordestana (UCNE). El torneo contó con la participación de varias universidades y se llevó a cabo en el polideportivo Tony Barreiro de la Universidad Autónoma de Santo Domingo. La competencia ha tenido una buena acogida y se espera que más universidades participen en futuras ediciones.</p>
+            </div>
+        </div>
+        <div class="section-container">
+            <div class="container_calendar">
+                <div class="header_calendar">
+                    <h1 id="text_day">00</h1>
+                    <h5 id="text_month">Null</h5>
+                </div>
+                <div class="body_calendar">
+                    <div class="container_details">
+                        <div class="detail_1">
+                            <div class="detail">
+                                <div class="circle">
+                                    <div class="column"></div>
+                                </div>
+                            </div>
+                            <div class="detail">
+                                <div class="circle">
+                                    <div class="column"></div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="detail_2">
+                            <div class="detail">
+                                <div class="circle">
+                                    <div class="column"></div>
+                                </div>
+                            </div>
+                            <div class="detail">
+                                <div class="circle">
+                                    <div class="column"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="container_change_month">
+                        <button id="last_month">&lt;</button>
+                        <div>
+                            <span id="text_month_02">Null</span>
+                            <span id="text_year">0000</span>
+                        </div>
+                        <button id="next_month">&gt;</button>
+                    </div>
+                    <div class="container_weedays">
+                        <span class="week_days_item">DOM</span>
+                        <span class="week_days_item">LUN</span>
+                        <span class="week_days_item">MAR</span>
+                        <span class="week_days_item">MÍE</span>
+                        <span class="week_days_item">JUE</span>
+                        <span class="week_days_item">VIE</span>
+                        <span class="week_days_item">SÁB</span>
+                    </div>
+                    <div class="container_days">
+                        <span class="week_days_item item_day"></span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <hr>
+    <div class="row text-center">
+        <div class="col">
+            <img class= "logoitlafinal" src="img/Logo/LogoITLA.png" alt="">
+            <p>Instituto Tecnologico de Las Americas ITLA<br>
+               Autopista Las Americas, Km 27, PCSD, La Caleta, Boca Chica 11606<br>
+            <img src="img/iconos/telephone-fill.svg"> 809-738-4852 / 809-793-2557
+            <img src="img/iconos/envelope-at-fill.svg" alt="">  info@itla.edu.do<br>
+            TÉRMINOS DE USO | POLÍTICAS DE PRIVACIDAD | PREGUNTAS FRECUENTES<br>
+            © 2023 TODOS LOS DERECHOS RESERVADOS
+            </p>
+        </div>
+        <footer>
+            <img width="500px" src="img/Fotos/final.PNG" alt="">
+        </footer>
+    </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="/controllers/script.js"></script>
+</body>
+</html>

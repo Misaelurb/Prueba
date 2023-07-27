@@ -1,0 +1,197 @@
+
+.LogoItla{
+    width: 300px;
+    padding-left: 40px;
+}
+.Logo{
+    position: relative;
+    width: 250px;
+    margin-right: 65px;
+}
+
+nav{
+    background-color:#023877;
+    margin-bottom: 2rem;
+}
+.nav-link{
+    font-size: 15px;
+}
+li:hover{
+    background-color: #0168c6;
+}
+.deportes-destacados,.noticias-recientes{
+    color:  #023877;
+}
+.card{
+    width: 12rem;
+    margin-top: 2rem;
+}
+.noticias{
+    list-style: none;
+    text-decoration: none;
+    color: #023877;
+}
+
+
+.contenedor {
+    position: relative;
+    padding: 20px;
+    width: 100vw;;
+    background-image: url(../img/Fotos/baloncesto.jpg);
+}
+
+.contenedor h2{
+    font-size: 30px;
+    font-weight: 800;
+    line-height: 29px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #FFFFFF;;
+    margin-bottom: 0px;
+}
+
+.contenedor div{
+    padding-left: 32px;
+}
+
+
+a {
+    font-size: 14px;
+
+    color: white;
+
+    text-decoration: underline;
+}
+
+
+a:visited {
+    color: white;
+}
+
+
+a, a.disciplinas:hover {
+    color: blue;
+}
+
+a:hover {
+    color: blue;
+}
+
+
+.contenedor span {
+    color: white; 
+    font-size: 14px;
+    
+}
+
+a.disciplinas{
+    color: #00BFFF;
+}
+
+.contenedortext p{
+    text-align: left;
+    color: #000;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    max-width: 35vw;
+}
+
+.contenedortext h2{
+    margin-top: 30px;
+    color: #19097e;
+    display: flex;
+    font-size: 34px;
+}
+
+.contenedorlogros h2{
+    margin-top: 20px;
+    color: #19097e;
+    font-size: 34px;
+}
+
+.imgbaloncesto{
+    margin-top: 30px;
+    width: 100%;
+}
+
+.parrafo-estilo-1{
+    margin-top: 5px;
+    font-size: 14px;
+    color: #888;
+    font-weight: 600;
+}
+
+.parrafo-estilo-2{
+    max-width: 35vw;
+    text-align: left;   
+}
+
+.logoitlafinal {
+    margin-top: 30px;
+    width: 290px;
+}
+
+.input{
+    padding: 8px;
+    border: 1px solid;
+    background-color: #fffcfc;
+    padding-right: 45px;
+}
+
+.input-container{
+    position: relative;
+    display: flex;
+    margin-top: 15px;
+    margin-right: 65px;
+    justify-content: flex-end;
+}
+
+.input-container .icon {
+    position: absolute;
+    top: 50%;
+    right: 12px;
+    transform: translateY(-40%);
+    cursor: pointer;
+    font-size: 25px;
+}
+
+.img-container{
+    display: flex;
+    justify-content: flex-end;
+}
+
+.item-nav{
+    display: flex;
+    padding: 0px 15px;
+    padding-top: 15px;
+    font-size: 16px;
+    font-weight: bold;
+    gap: 10px;
+}
+
+.item-nav-icon{
+    display: inline-block;
+    padding: 0px 15px;
+    padding-top: 5px;
+    font-size: 30px;
+}
+
+.section-container{
+    display: flex;
+    flex-direction: column;
+    padding-left: 50px;
+    gap: 20px;
+    width: 40vw;
+}
+
+.main-container{
+    display: flex;
+    gap: 200px;
+}
+
+footer{
+    background-color: #FFFFFF !important;
+}
+
+ 
